@@ -30,19 +30,19 @@
       </span>
       <div class="govuk-checkboxes">
         <div class="govuk-checkboxes__item">
-          <input class="govuk-checkboxes__input" id="skills" name="skills" type="checkbox" value="I'm a skateboard legend">
+          <input class="govuk-checkboxes__input" id="skills" name="skills" type="checkbox" value="I'm a skateboard legend" {{ checked("skills", "I'm a skateboard legend") }}>
           <label class="govuk-label govuk-checkboxes__label" for="skills">
             I'm a skateboard legend
           </label>
         </div>
         <div class="govuk-checkboxes__item">
-          <input class="govuk-checkboxes__input" id="skills-2" name="skills" type="checkbox" value="I can eat the entire menu, anywhere">
+          <input class="govuk-checkboxes__input" id="skills-2" name="skills" type="checkbox" value="I can eat the entire menu, anywhere" {{ checked("skills", "I can eat the entire menu, anywhere") }}>
           <label class="govuk-label govuk-checkboxes__label" for="skills-2">
             I can eat the entire menu, anywhere
           </label>
         </div>
         <div class="govuk-checkboxes__item">
-          <input class="govuk-checkboxes__input" id="skills-3" name="skills" type="checkbox" value="I can fly">
+          <input class="govuk-checkboxes__input" id="skills-3" name="skills" type="checkbox" value="I can fly" {{ checked("skills", "I can fly") }}>
           <label class="govuk-label govuk-checkboxes__label" for="skills-3">
             I can fly
           </label>
